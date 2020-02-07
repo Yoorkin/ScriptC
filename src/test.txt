@@ -1,0 +1,18 @@
+int i,target=55;//还不支持数组
+do
+{
+    print "输入猜想数字并回车：";
+    read i;
+    
+    if(i>target)
+        print "数字太大了";
+    else if(i<target)
+        print "数字太小了";
+    else
+    {
+        print "猜对了，数字是:";
+        print i;
+    }
+}while(i!=target);
+
+
