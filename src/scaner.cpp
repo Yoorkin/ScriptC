@@ -15,6 +15,8 @@ struct LineNo
 struct Token
 {
     enum Enum{Empty,Integer,Demical,String,Char,ID,Sign,Undefined,Comment,Eof}kind=Empty;
+    Token(){}
+    Token(Enum k,string t):kind(k),text(t){}
     string text="";
     LineNo lineNo;
 };
@@ -54,7 +56,7 @@ Token getToken(istream &file)
             {
                 bool abandon = true;
                 char c='\000';
-                return Token{Token::Eof,""};
+                return Token(Token::Eof,"");
             }
         }
 

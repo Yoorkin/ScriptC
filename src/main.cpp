@@ -7,7 +7,10 @@
 using namespace std;
 int main()
 {
-    ifstream file("test.txt");
+    cout<<"Please input the script path:"<<endl;
+    string path;
+    cin>>path;
+    ifstream file(path);
     treeNode* tree=parse(file);
     Executor::execute(tree);
     file.close();

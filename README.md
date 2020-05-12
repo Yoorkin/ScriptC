@@ -7,8 +7,40 @@
 * 比较、逻辑、加减乘除运算表达式及组合
 * read 和 print
 
-executor还有很多bug 而且数组都没完成
+## 示例：猜数字游戏脚本
+启动ScriptC,输入脚本test.txt的路径回车执行。数字比预期数字小提示“too small”,比预期数字大提示“too large”，猜中则游戏结束。
 
-还有很多东西得学 以后再找时间补吧
+test.txt内容:
+```$xslt
+int i,target=55;//还不支持数组和Random
+do
+{
+    print "Guess a number and press enter:";
+    read i;
+    if(i>target)
+        print "Too large!";
+    else if(i<target)
+        print "Too small!";
+    else
+    {
+        print "You win.The number is:";
+        print i;
+    }
+}while(i!=target);
 
-先丢上来 免得Windows又崩没了
+```
+执行效果：
+```$xslt
+Please input the script path:
+C:\Users\Yorkin\prj\cpp\ScriptC\test.txt
+Guess a number and press enter:
+100
+Too large!
+Guess a number and press enter:
+40
+Too small!
+Guess a number and press enter:
+55
+You win.The number is:
+55
+```

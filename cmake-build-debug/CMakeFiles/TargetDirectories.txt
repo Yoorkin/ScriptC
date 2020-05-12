@@ -1,0 +1,3 @@
+C:/Users/Yorkin/prj/cpp/ScriptC/cmake-build-debug/CMakeFiles/ScriptC.dir
+C:/Users/Yorkin/prj/cpp/ScriptC/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Yorkin/prj/cpp/ScriptC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+int i,target=55;//还不支持数组和Random
+do
+{
+    print "Guess a number and press enter:";
+    read i;
+    if(i>target)
+        print "Too large!";
+    else if(i<target)
+        print "Too small!";
+    else
+    {
+        print "You win.The number is:";
+        print i;
+    }
+}while(i!=target);
+
+

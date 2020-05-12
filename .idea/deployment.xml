@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Remote GDB Server (5f7c019b-ea76-4d11-8b14-ac59e9a3a340)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Remote Host (53e887f4-6500-4b33-89f9-8fd992ec3597)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/ScriptC" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
